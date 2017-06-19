@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>MRU Listbox demo</title>
+
+</head>
+<body>
+Hi there.
+<br />
+<div id="jquery_works">
+Does jQuery work?
+<br />
+</div>
+
+Put a form select box here.
+<br />
+<select id="mylist1" data-sortalpha>
+	<option>one 1</option>
+	<option>a eh</option>
+	<option>3 three</option>
+</select>
+
+<br />
+and another one
+<br />
+<select id="mylist2" data-sortalpha>
+	<option>ten 10</option>
+	<option>Aa eh</option>
+	<option>3 three</option>
+</select>
+
+<br />
+and one for MRU demo
+<br />
+<select id="mylist2" data-sortmru>
+	<option>ten 10</option>
+	<option>Aa eh</option>
+	<option>3 three</option>
+</select>
+</body>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/htmlformselect_mru_jq.js"></script>
+<script>
+console.log ('here goes');
+$( 
+	function () {
+			$('#jquery_works').append(' ok jquery is working');
+	}
+);
+
+ var htmlformselect_mru_options = { debug: true, memoryPrefix: "hfsmru_", resetString: "-- reset mem --" };
+
+
+</script>
+</html>
