@@ -13,10 +13,10 @@ Rationale for development:
    
 Easy to use:
 
-include jQuery, inlude the .js file and set a data atribute (data-sortalpha or data-sortmru) onto the html form select elements you want to affect with this.
+include jQuery, inlude the .js file and set a data attribute (data-sortalpha or data-sortmru) onto the html form select elements you want to affect with this.
 
 # Roadmap for development
-add the demo where TamperMonkey (similar to GreaseMonkey) is used to provide this feature into an archaic web applicaion (SquirrelMail)
+add the demo where TamperMonkey (similar to GreaseMonkey) is used to provide this feature into an archaic web application (SquirrelMail)
 
 add some test-driven-design infrastructure
 
