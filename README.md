@@ -7,7 +7,7 @@ Rationale for development:
    in a html form select list could not be provided server-side, due to the requirement for a committee approval process
    on changing the order of any items that had been added ad-hoc to certain property lists: mainly an issue for the trainers.
    
-   sortmru: I've encountered web applications that used html form select options lists to select an application componenent
+   sortmru: I've encountered web applications that used html form select options lists to select an application component
    into a page design/build interface.  Such an application is more user-friendly if it can remember your commonly used items.
    A provided demo will show the feature being provided into an archaic web application (SquirrelMail) where a select element is used to select the target email system folder for a 'move' operation.  Yes I said archaic.
    
